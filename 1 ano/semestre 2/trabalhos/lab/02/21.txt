@@ -1,0 +1,22 @@
+Ficha 2 ex 1
+
+a F
+
+b V
+
+c V
+
+d V
+
+e F
+
+f V
+
+g V
+
+h F
+
+h F
+
+i V
+

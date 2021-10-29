@@ -1,0 +1,23 @@
+a 23
+
+b 41
+
+c 17
+
+d primeira posição do array em memoria
+
+e conteudo da primeira posicao
+
+f segunda posição do array em memoria
+
+g conteudo da segunda posicao
+
+h terceira posição do array em memoria
+
+i conteudo da terceira posicao
+
+j primeira posição do array em memoria
+
+k 
+
+l erro
