@@ -30,19 +30,23 @@ public class Game{
             e.printStackTrace();
         }
     }
+
+    private void moveHero(Position p){
+        hero.setPosition(p);
+    }
     private void processKey(KeyStroke key) {
         switch (key.getKeyType()) {
             case ArrowLeft:
-                hero.moveLeft();
+                moveHero(hero.moveLeft());
                 break;
             case ArrowRight:
-                hero.moveRight();
+                moveHero(hero.moveRight());
                 break;
             case ArrowUp:
-                hero.moveUp();
+                moveHero(hero.moveUp());
                 break;
             case ArrowDown:
-                hero.moveDown();
+                moveHero(hero.moveDown());
                 break;
         }
     }
