@@ -1,3 +1,4 @@
+import com.googlecode.lanterna.graphics.TextGraphics;
 import com.googlecode.lanterna.input.KeyStroke;
 import com.googlecode.lanterna.screen.Screen;
 
@@ -13,6 +14,10 @@ public class Arena {
 
     public void draw(Screen screen){
         hero.draw(screen);
+    }
+
+    public void draw(TextGraphics graphics){
+        hero.draw(graphics);
     }
 
     private boolean canHeroMove(Position position){
